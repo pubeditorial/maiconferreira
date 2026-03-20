@@ -2741,7 +2741,7 @@ Você não pode mudar o passado, mas pode alinhar o presente para dar um novo ru
     if (!downloadWindow) {
       window.location.href = redirectUrl;
     }
-  } catch (error) {
+    } catch (error) {
     submitBtn.disabled = false;
     submitBtn.style.opacity = "1";
     setModalDownloadText(item);
@@ -2753,6 +2753,7 @@ Você não pode mudar o passado, mas pode alinhar o presente para dar um novo ru
     });
   }
 });
-  </script>
+});
+</script>
 </body>
 </html>
