@@ -1214,6 +1214,14 @@
       max-width:22ch;
     }
 
+    .lead-description{
+      margin:8px 0 0;
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.65;
+      max-width:42ch;
+    }
+
     .lead-body{
       padding:20px 22px 22px;
       display:grid;
@@ -1310,6 +1318,28 @@
       background:var(--accent-soft);
     }
 
+    .lead-success-box{
+      border:1px solid var(--line);
+      border-radius:20px;
+      background:#fff;
+      padding:20px;
+    }
+
+    .lead-success-box h3{
+      margin:0 0 8px;
+      font-size:22px;
+      line-height:1.1;
+      letter-spacing:-.02em;
+      color:var(--fg);
+    }
+
+    .lead-success-box p{
+      margin:0;
+      color:var(--muted);
+      font-size:15px;
+      line-height:1.7;
+    }
+
     .is-hidden{ display:none !important; }
     body.modal-open{ overflow:hidden; }
 
@@ -1345,88 +1375,94 @@
                 <a class="navlink" href="#leituras">Materiais</a>
                 <a class="navlink" href="#faq">Perguntas frequentes</a>
                 <button
-  class="navlink js-download"
-  type="button"
-  data-item="CATALOGO AUTOR MAICON FERREIRA"
-  data-file-id="1D5VLWOpOEhxETgEapxOmhINkCu0UJBvp">
-  Catálogo
-</button>
+                  class="navlink js-download"
+                  type="button"
+                  data-item="CATALOGO AUTOR MAICON FERREIRA"
+                  data-file-id="1D5VLWOpOEhxETgEapxOmhINkCu0UJBvp"
+                  data-modal-title="Receba o catálogo completo"
+                  data-modal-description="Receba o catálogo completo da obra de Maicon Ferreira, com visão geral dos títulos, temas centrais e caminhos de leitura."
+                  data-submit-label="Receber catálogo">
+                  Catálogo
+                </button>
               </nav>
             </header>
 
-           <div class="hero-body">
-  <div class="hero-copy">
-    <div class="kicker">
-      <span class="tag">Sobre o autor</span>
-    </div>
+            <div class="hero-body">
+              <div class="hero-copy">
+                <div class="kicker">
+                  <span class="tag">Sobre o autor</span>
+                </div>
 
-    <h1 class="h1">MAICON FERREIRA</h1>
+                <h1 class="h1">MAICON FERREIRA</h1>
 
-    <p class="hero-lead">
-      Empreendedor, escritor, pastor e teólogo, Maicon Ferreira constrói uma obra voltada à transformação pessoal, ao propósito, à disciplina, à espiritualidade prática e ao governo de si. Seus livros unem linguagem direta, reflexão cristã, confronto emocional e chamado à mudança concreta.
-    </p>
+                <p class="hero-lead">
+                  Empreendedor, escritor, pastor e teólogo, Maicon Ferreira constrói uma obra voltada à transformação pessoal, ao propósito, à disciplina, à espiritualidade prática e ao governo de si. Seus livros unem linguagem direta, reflexão cristã, confronto emocional e chamado à mudança concreta.
+                </p>
 
-    <p class="mini">
-      Brasileiro, natural de Novo Hamburgo/RS, residente em Londres, Inglaterra. Atua com palestras, mentorias e seminários sobre desenvolvimento pessoal e inteligência emocional.
-    </p>
+                <p class="mini">
+                  Brasileiro, natural de Novo Hamburgo/RS, residente em Londres, Inglaterra. Atua com palestras, mentorias e seminários sobre desenvolvimento pessoal e inteligência emocional.
+                </p>
 
-    <div class="book-actions" aria-label="Ações principais">
-      <button
-        class="btn btn--primary js-download"
-        type="button"
-        data-item="CATALOGO AUTOR MAICON FERREIRA"
-        data-file-id="1D5VLWOpOEhxETgEapxOmhINkCu0UJBvp">
-        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
-          <path d="M12 3v10"></path>
-          <path d="M8 9l4 4 4-4"></path>
-          <path d="M4 17v3h16v-3"></path>
-        </svg>
-        Download do catálogo
-      </button>
+                <div class="book-actions" aria-label="Ações principais">
+                  <button
+                    class="btn btn--primary js-download"
+                    type="button"
+                    data-item="CATALOGO AUTOR MAICON FERREIRA"
+                    data-file-id="1D5VLWOpOEhxETgEapxOmhINkCu0UJBvp"
+                    data-modal-title="Receba o catálogo completo"
+                    data-modal-description="Receba o catálogo completo da obra de Maicon Ferreira, com visão geral dos títulos, temas centrais e caminhos de leitura."
+                    data-submit-label="Receber catálogo">
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                      <path d="M12 3v10"></path>
+                      <path d="M8 9l4 4 4-4"></path>
+                      <path d="M4 17v3h16v-3"></path>
+                    </svg>
+                    Download do catálogo
+                  </button>
 
-      <a class="btn btn--secondary" href="#livros">
-        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
-          <path d="M5 12h14"></path>
-          <path d="M13 6l6 6-6 6"></path>
-        </svg>
-        Conheça os livros
-      </a>
-    </div>
-  </div>
+                  <a class="btn btn--secondary" href="#livros">
+                    <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                      <path d="M5 12h14"></path>
+                      <path d="M13 6l6 6-6 6"></path>
+                    </svg>
+                    Conheça os livros
+                  </a>
+                </div>
+              </div>
 
-  <aside class="hero-visual hero-side-card" aria-label="Apresentação visual do autor">
-    <div class="portrait-wrap">
-      <div class="portrait">
-        <img src="assets/maicon-ferreira.jpg" alt="Retrato de Maicon Ferreira" loading="lazy" />
-      </div>
+              <aside class="hero-visual hero-side-card" aria-label="Apresentação visual do autor">
+                <div class="portrait-wrap">
+                  <div class="portrait">
+                    <img src="assets/maicon-ferreira.jpg" alt="Retrato de Maicon Ferreira" loading="lazy" />
+                  </div>
 
-      <div class="portrait-meta">
-        <strong>Liderança, propósito e transformação</strong>
-        <span>Presidente do Instituto Alpha, presidente da Casa do Oleiro Church e fundador da Kingdom School.</span>
-        <span>Uma obra que articula desenvolvimento pessoal, espiritualidade cristã, inteligência emocional, disciplina e visão de futuro.</span>
-      </div>
-    </div>
+                  <div class="portrait-meta">
+                    <strong>Liderança, propósito e transformação</strong>
+                    <span>Presidente do Instituto Alpha, presidente da Casa do Oleiro Church e fundador da Kingdom School.</span>
+                    <span>Uma obra que articula desenvolvimento pessoal, espiritualidade cristã, inteligência emocional, disciplina e visão de futuro.</span>
+                  </div>
+                </div>
 
-    <div class="hero-stat-grid">
-      <div class="hero-stat">
-        <strong>Identidade pública</strong>
-        <span>Empreendedor, escritor, pastor e teólogo.</span>
-      </div>
-      <div class="hero-stat">
-        <strong>Origem e residência</strong>
-        <span>Novo Hamburgo/RS · residente em Londres, Inglaterra.</span>
-      </div>
-      <div class="hero-stat">
-        <strong>Atuação</strong>
-        <span>Palestras, mentorias e seminários sobre desenvolvimento pessoal e inteligência emocional.</span>
-      </div>
-      <div class="hero-stat">
-        <strong>Eixos da obra</strong>
-        <span>Propósito, identidade, autogoverno, fé, transformação e serviço ao outro.</span>
-      </div>
-    </div>
-  </aside>
-</div>      
+                <div class="hero-stat-grid">
+                  <div class="hero-stat">
+                    <strong>Identidade pública</strong>
+                    <span>Empreendedor, escritor, pastor e teólogo.</span>
+                  </div>
+                  <div class="hero-stat">
+                    <strong>Origem e residência</strong>
+                    <span>Novo Hamburgo/RS · residente em Londres, Inglaterra.</span>
+                  </div>
+                  <div class="hero-stat">
+                    <strong>Atuação</strong>
+                    <span>Palestras, mentorias e seminários sobre desenvolvimento pessoal e inteligência emocional.</span>
+                  </div>
+                  <div class="hero-stat">
+                    <strong>Eixos da obra</strong>
+                    <span>Propósito, identidade, autogoverno, fé, transformação e serviço ao outro.</span>
+                  </div>
+                </div>
+              </aside>
+            </div>
           </div>
         </div>
       </section>
@@ -1489,7 +1525,10 @@ Entre a dor e o triunfo, existe uma decisão: permanecer no chão ou aprender a 
                         class="btn btn--primary js-download"
                         type="button"
                         data-item="TRECHO LIVRO DA QUEBRA AO TRIUNFO"
-                        data-file-id="1RqJ1_oxcsmFNG0ZnyEDgMEuRHsiwCNGe">
+                        data-file-id="1RqJ1_oxcsmFNG0ZnyEDgMEuRHsiwCNGe"
+                        data-modal-title="Receba um trecho de Da Quebra ao Triunfo"
+                        data-modal-description="Conheça o tom da escrita, a proposta do livro e a forma como esta leitura trabalha crise, reconstrução e propósito."
+                        data-submit-label="Receber trecho">
                         <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
                           <path d="M12 3v10"></path>
                           <path d="M8 9l4 4 4-4"></path>
@@ -1501,7 +1540,10 @@ Entre a dor e o triunfo, existe uma decisão: permanecer no chão ou aprender a 
                       <button
                         class="btn btn--purchase js-ticket"
                         type="button"
-                        data-item="AQUISICAO LIVRO DA QUEBRA AO TRIUNFO">
+                        data-item="AQUISICAO LIVRO DA QUEBRA AO TRIUNFO"
+                        data-modal-title="Solicitar o livro Da Quebra ao Triunfo"
+                        data-modal-description="Envie sua mensagem para falar sobre disponibilidade, formato e aquisição deste título."
+                        data-submit-label="Enviar solicitação">
                         Solicitar livro
                       </button>
 
@@ -1563,7 +1605,10 @@ Na verdade, tempo você tem. O que você não tem é propósito para tal coisa o
                         class="btn btn--primary js-download"
                         type="button"
                         data-item="TRECHO LIVRO O MAIOR LADRAO DO TEMPO"
-                        data-file-id="12UTuFRiGZBJFEfVObayHRtI3o2rKPPYg">
+                        data-file-id="12UTuFRiGZBJFEfVObayHRtI3o2rKPPYg"
+                        data-modal-title="Receba um trecho de O Maior Ladrão do Tempo"
+                        data-modal-description="Conheça a linguagem, o ritmo e a proposta do livro antes de decidir se esta leitura conversa com seu momento."
+                        data-submit-label="Receber trecho">
                         <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
                           <path d="M12 3v10"></path>
                           <path d="M8 9l4 4 4-4"></path>
@@ -1575,7 +1620,10 @@ Na verdade, tempo você tem. O que você não tem é propósito para tal coisa o
                       <button
                         class="btn btn--purchase js-ticket"
                         type="button"
-                        data-item="AQUISICAO LIVRO O MAIOR LADRAO DO TEMPO">
+                        data-item="AQUISICAO LIVRO O MAIOR LADRAO DO TEMPO"
+                        data-modal-title="Solicitar o livro O Maior Ladrão do Tempo"
+                        data-modal-description="Envie sua mensagem para falar sobre disponibilidade, formato e aquisição deste título."
+                        data-submit-label="Enviar solicitação">
                         Solicitar livro
                       </button>
 
@@ -1636,7 +1684,10 @@ Para onde vou, com quem vou e quem eu sou são três respostas que você precisa
                         class="btn btn--primary js-download"
                         type="button"
                         data-item="TRECHO LIVRO QUEM E VOCE PARA ONDE VAI E COM QUEM"
-                        data-file-id="1dE6nuSl_Pn-mV4y1v2Oapj-xU7xN-6cX">
+                        data-file-id="1dE6nuSl_Pn-mV4y1v2Oapj-xU7xN-6cX"
+                        data-modal-title="Receba um trecho de Quem É Você? Para Onde Vai e Com Quem?"
+                        data-modal-description="Receba um trecho para conhecer o tom da escrita, a abordagem do livro e decidir se esta leitura conversa com seu momento."
+                        data-submit-label="Receber trecho">
                         <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
                           <path d="M12 3v10"></path>
                           <path d="M8 9l4 4 4-4"></path>
@@ -1648,7 +1699,10 @@ Para onde vou, com quem vou e quem eu sou são três respostas que você precisa
                       <button
                         class="btn btn--purchase js-ticket"
                         type="button"
-                        data-item="AQUISICAO LIVRO QUEM E VOCE PARA ONDE VAI E COM QUEM">
+                        data-item="AQUISICAO LIVRO QUEM E VOCE PARA ONDE VAI E COM QUEM"
+                        data-modal-title="Solicitar o livro Quem É Você? Para Onde Vai e Com Quem?"
+                        data-modal-description="Envie sua mensagem para falar sobre este título, disponibilidade, formato e aquisição."
+                        data-submit-label="Enviar solicitação">
                         Solicitar livro
                       </button>
 
@@ -1710,7 +1764,10 @@ Nunca imaginei que a vida — e o próprio Deus — me fariam parar por um perí
                         class="btn btn--primary js-download"
                         type="button"
                         data-item="TRECHO LIVRO STOP"
-                        data-file-id="19mukBL9zVrgjQrK03jt-zH7_j0i5l6WJ">
+                        data-file-id="19mukBL9zVrgjQrK03jt-zH7_j0i5l6WJ"
+                        data-modal-title="Receba um trecho de STOP"
+                        data-modal-description="Receba um trecho de STOP para conhecer o tom da escrita, a abordagem do livro e decidir se esta leitura conversa com seu momento."
+                        data-submit-label="Receber trecho">
                         <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
                           <path d="M12 3v10"></path>
                           <path d="M8 9l4 4 4-4"></path>
@@ -1722,7 +1779,10 @@ Nunca imaginei que a vida — e o próprio Deus — me fariam parar por um perí
                       <button
                         class="btn btn--purchase js-ticket"
                         type="button"
-                        data-item="AQUISICAO LIVRO STOP">
+                        data-item="AQUISICAO LIVRO STOP"
+                        data-modal-title="Solicitar o livro STOP"
+                        data-modal-description="Envie sua mensagem para falar sobre disponibilidade, formato e aquisição deste título."
+                        data-submit-label="Enviar solicitação">
                         Solicitar livro
                       </button>
 
@@ -1783,7 +1843,10 @@ Você não pode mudar o passado, mas pode alinhar o presente para dar um novo ru
                         class="btn btn--primary js-download"
                         type="button"
                         data-item="TRECHO LIVRO QUATRO EIXOS QUE GOVERNAM A HUMANIDADE"
-                        data-file-id="1EoPPx-406QjkjPtZbwUwYsQlxI84fF7v">
+                        data-file-id="1EoPPx-406QjkjPtZbwUwYsQlxI84fF7v"
+                        data-modal-title="Receba um trecho de 4 Eixos que Governam a Humanidade"
+                        data-modal-description="Conheça a proposta do livro, a linguagem da obra e o modo como o autor articula autocontrole, responsabilidade e transformação."
+                        data-submit-label="Receber trecho">
                         <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
                           <path d="M12 3v10"></path>
                           <path d="M8 9l4 4 4-4"></path>
@@ -1795,7 +1858,10 @@ Você não pode mudar o passado, mas pode alinhar o presente para dar um novo ru
                       <button
                         class="btn btn--purchase js-ticket"
                         type="button"
-                        data-item="AQUISICAO LIVRO QUATRO EIXOS QUE GOVERNAM A HUMANIDADE">
+                        data-item="AQUISICAO LIVRO QUATRO EIXOS QUE GOVERNAM A HUMANIDADE"
+                        data-modal-title="Solicitar o livro 4 Eixos que Governam a Humanidade"
+                        data-modal-description="Envie sua mensagem para falar sobre disponibilidade, formato e aquisição deste título."
+                        data-submit-label="Enviar solicitação">
                         Solicitar livro
                       </button>
 
@@ -1846,7 +1912,10 @@ Você não pode mudar o passado, mas pode alinhar o presente para dar um novo ru
                     class="btn btn--primary js-download"
                     type="button"
                     data-item="TRECHO LIVRO PEDRA BRUTA"
-                    data-file-id="1hPuzq-nUKHw5vWqu3hLJJ4FDO4ZhFczI">
+                    data-file-id="1hPuzq-nUKHw5vWqu3hLJJ4FDO4ZhFczI"
+                    data-modal-title="Receba um trecho de Pedra Bruta"
+                    data-modal-description="Conheça a linguagem, a atmosfera e a proposta de Pedra Bruta antes de decidir sua leitura."
+                    data-submit-label="Receber trecho">
                     <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
                       <path d="M12 3v10"></path>
                       <path d="M8 9l4 4 4-4"></path>
@@ -1858,7 +1927,10 @@ Você não pode mudar o passado, mas pode alinhar o presente para dar um novo ru
                   <button
                     class="btn btn--purchase js-ticket"
                     type="button"
-                    data-item="AQUISICAO LIVRO PEDRA BRUTA">
+                    data-item="AQUISICAO LIVRO PEDRA BRUTA"
+                    data-modal-title="Solicitar o livro Pedra Bruta"
+                    data-modal-description="Envie sua mensagem para falar sobre este título, disponibilidade, formato e aquisição."
+                    data-submit-label="Enviar solicitação">
                     Solicitar livro
                   </button>
 
@@ -1886,10 +1958,12 @@ Você não pode mudar o passado, mas pode alinhar o presente para dar um novo ru
 
             <div>
               <button
-                class="btn btn--primary js-download"
+                class="btn btn--primary js-newsletter"
                 type="button"
                 data-item="NOVIDADES AUTOR MAICON FERREIRA"
-data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
+                data-modal-title="Receba novidades e materiais do autor"
+                data-modal-description="Cadastre seu contato para receber lançamentos, leituras, materiais e atualizações da obra de Maicon Ferreira."
+                data-submit-label="Quero receber">
                 <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
                   <path d="M12 3v10"></path>
                   <path d="M8 9l4 4 4-4"></path>
@@ -1920,7 +1994,10 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
                     class="btn btn--secondary w-full js-download"
                     type="button"
                     data-item="CATALOGO AUTOR MAICON FERREIRA"
-                    data-file-id="1D5VLWOpOEhxETgEapxOmhINkCu0UJBvp">
+                    data-file-id="1D5VLWOpOEhxETgEapxOmhINkCu0UJBvp"
+                    data-modal-title="Receba o catálogo completo"
+                    data-modal-description="Receba o catálogo completo da obra de Maicon Ferreira, com visão geral dos títulos, temas centrais e caminhos de leitura."
+                    data-submit-label="Receber catálogo">
                     Download do catálogo
                   </button>
                 </div>
@@ -1931,10 +2008,12 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
                 <p>Receba por e-mail lançamentos, leituras, materiais, atualizações da obra e novos conteúdos do autor.</p>
                 <div style="margin-top:16px;">
                   <button
-                    class="btn btn--secondary w-full js-download"
+                    class="btn btn--secondary w-full js-newsletter"
                     type="button"
                     data-item="NOVIDADES AUTOR MAICON FERREIRA"
-data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
+                    data-modal-title="Receba novidades e materiais do autor"
+                    data-modal-description="Cadastre seu contato para receber lançamentos, leituras, materiais e atualizações da obra de Maicon Ferreira."
+                    data-submit-label="Quero receber">
                     Receber novidades
                   </button>
                 </div>
@@ -1947,7 +2026,10 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
                   <button
                     class="btn btn--secondary w-full js-ticket"
                     type="button"
-                    data-item="CONTATO AUTOR MAICON FERREIRA">
+                    data-item="CONTATO AUTOR MAICON FERREIRA"
+                    data-modal-title="Entrar em contato"
+                    data-modal-description="Envie sua mensagem para falar sobre livros, palestras, mentorias, seminários ou outros assuntos ligados à obra de Maicon Ferreira."
+                    data-submit-label="Enviar mensagem">
                     Entrar em contato
                   </button>
                 </div>
@@ -2073,7 +2155,10 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
                     class="btn btn--primary w-full js-download"
                     type="button"
                     data-item="CATALOGO AUTOR MAICON FERREIRA"
-                    data-file-id="1D5VLWOpOEhxETgEapxOmhINkCu0UJBvp">
+                    data-file-id="1D5VLWOpOEhxETgEapxOmhINkCu0UJBvp"
+                    data-modal-title="Receba o catálogo completo"
+                    data-modal-description="Receba o catálogo completo da obra de Maicon Ferreira, com visão geral dos títulos, temas centrais e caminhos de leitura."
+                    data-submit-label="Receber catálogo">
                     <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
                       <path d="M12 3v10"></path>
                       <path d="M8 9l4 4 4-4"></path>
@@ -2089,10 +2174,12 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
                 <p>Acompanhe lançamentos, leituras, novos materiais e conteúdos do autor por e-mail.</p>
                 <div style="margin-top:16px;">
                   <button
-                    class="btn btn--secondary w-full js-download"
+                    class="btn btn--secondary w-full js-newsletter"
                     type="button"
                     data-item="NOVIDADES AUTOR MAICON FERREIRA"
-data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
+                    data-modal-title="Receba novidades e materiais do autor"
+                    data-modal-description="Cadastre seu contato para receber lançamentos, leituras, materiais e atualizações da obra de Maicon Ferreira."
+                    data-submit-label="Quero receber">
                     Acompanhar novidades
                   </button>
                 </div>
@@ -2105,7 +2192,10 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
                   <button
                     class="btn btn--secondary w-full js-ticket"
                     type="button"
-                    data-item="CONTATO AUTOR MAICON FERREIRA">
+                    data-item="CONTATO AUTOR MAICON FERREIRA"
+                    data-modal-title="Entrar em contato"
+                    data-modal-description="Envie sua mensagem sobre livros, aquisição, palestras, mentorias, seminários ou outros temas relacionados à obra."
+                    data-submit-label="Enviar mensagem">
                     Entrar em contato
                   </button>
                 </div>
@@ -2135,9 +2225,11 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
                 <li>
                   <button
                     type="button"
-                    class="js-download"
+                    class="js-newsletter"
                     data-item="NOVIDADES AUTOR MAICON FERREIRA"
-data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
+                    data-modal-title="Receba novidades e materiais do autor"
+                    data-modal-description="Cadastre seu contato para receber lançamentos, leituras, materiais e atualizações da obra de Maicon Ferreira."
+                    data-submit-label="Quero receber">
                     Receber novidades
                   </button>
                 </li>
@@ -2163,7 +2255,10 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
   <div id="lead-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="lead-title">
     <div class="lead-dialog" role="document">
       <div class="lead-header">
-        <div class="lead-title" id="lead-title">Download do catálogo</div>
+        <div>
+          <div class="lead-title" id="lead-title">Download do catálogo</div>
+          <p id="lead-description" class="lead-description">Preencha seus dados para continuar.</p>
+        </div>
         <button type="button" id="lead-close" class="lead-btn" aria-label="Fechar formulário">Fechar</button>
       </div>
 
@@ -2206,11 +2301,21 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
         </div>
 
         <div class="lead-actions">
-          <button type="submit" id="lead-submit" class="lead-btn lead-btn--primary">Baixar agora</button>
+          <button type="submit" id="lead-submit" class="lead-btn lead-btn--primary">Continuar</button>
         </div>
 
         <div id="lead-hint" class="lead-hint">Preencha seu nome e e-mail para continuar.</div>
       </form>
+
+      <div id="lead-success" class="lead-body is-hidden" aria-live="polite">
+        <div class="lead-success-box">
+          <h3 id="lead-success-title">Tudo certo</h3>
+          <p id="lead-success-text">Sua solicitação foi recebida com sucesso.</p>
+          <div class="lead-actions" style="margin-top:18px;">
+            <button type="button" id="lead-success-close" class="lead-btn lead-btn--primary">Fechar</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -2234,8 +2339,15 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
       const whatsappWrap = document.getElementById("lead-whatsapp-wrap");
       const messageWrap = document.getElementById("lead-message-wrap");
       const modalTitle = document.getElementById("lead-title");
+      const modalDescription = document.getElementById("lead-description");
+
+      const successBox = document.getElementById("lead-success");
+      const successTitle = document.getElementById("lead-success-title");
+      const successText = document.getElementById("lead-success-text");
+      const successClose = document.getElementById("lead-success-close");
 
       const downloadButtons = Array.prototype.slice.call(document.querySelectorAll(".js-download"));
+      const newsletterButtons = Array.prototype.slice.call(document.querySelectorAll(".js-newsletter"));
       const ticketButtons = Array.prototype.slice.call(document.querySelectorAll(".js-ticket"));
       const hashLinks = Array.prototype.slice.call(document.querySelectorAll('a[href^="#"]'));
 
@@ -2392,33 +2504,47 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
         return data;
       }
 
-      function setModalDownloadText(item) {
-        const upper = canonicalItem(item);
+      function showFormState() {
+        form.classList.remove("is-hidden");
+        successBox.classList.add("is-hidden");
+      }
 
-        if (upper.indexOf("NOVIDADES") >= 0) {
-          modalTitle.textContent = "Receba novidades e materiais";
-          submitBtn.textContent = "Quero acompanhar";
-          hint.textContent = "Preencha seu nome e e-mail para receber novidades, leituras e materiais do autor.";
-          return;
+      function showSuccessState(title, text) {
+        form.classList.add("is-hidden");
+        successBox.classList.remove("is-hidden");
+        successTitle.textContent = title;
+        successText.textContent = text;
+
+        window.setTimeout(function () {
+          successClose.focus();
+        }, 30);
+      }
+
+      function getDefaultConfigByMode(mode) {
+        if (mode === "ticket") {
+          return {
+            title: "Entre em contato",
+            description: "Envie sua mensagem para falar sobre este assunto.",
+            submitLabel: "Enviar mensagem",
+            hint: "Preencha os dados abaixo para continuar."
+          };
         }
 
-        if (upper.indexOf("CATALOGO") >= 0) {
-          modalTitle.textContent = "Download do catálogo";
-          submitBtn.textContent = "Baixar agora";
-          hint.textContent = "Preencha seu nome e e-mail para continuar.";
-          return;
+        if (mode === "newsletter") {
+          return {
+            title: "Receba novidades e materiais",
+            description: "Cadastre seu contato para receber lançamentos, leituras, materiais e novidades do autor.",
+            submitLabel: "Quero receber",
+            hint: "Preencha seu nome e e-mail para acompanhar."
+          };
         }
 
-        if (upper.indexOf("LEITURA") >= 0 || upper.indexOf("TRECHO") >= 0) {
-          modalTitle.textContent = "Receba este material por e-mail";
-          submitBtn.textContent = "Receber material";
-          hint.textContent = "Preencha seu nome e e-mail para acessar a leitura.";
-          return;
-        }
-
-        modalTitle.textContent = "Download";
-        submitBtn.textContent = "Continuar";
-        hint.textContent = "Preencha seu nome e e-mail para continuar.";
+        return {
+          title: "Receba este material",
+          description: "Preencha seus dados para continuar.",
+          submitLabel: "Continuar",
+          hint: "Preencha seu nome e e-mail para continuar."
+        };
       }
 
       function openModal(options) {
@@ -2427,11 +2553,15 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
         const item = config.item || "";
         const fileId = config.fileId || "";
         const trigger = config.trigger || null;
+        const title = config.title || "";
+        const description = config.description || "";
+        const submitLabel = config.submitLabel || "";
 
         lastTrigger = trigger || document.activeElement;
 
         const normalizedItem = canonicalItem(item);
         const normalizedFileId = String(fileId || "").trim();
+        const defaults = getDefaultConfigByMode(mode);
 
         inputMode.value = mode;
         inputItem.value = normalizedItem;
@@ -2439,20 +2569,24 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
         inputTicketId.value = "";
         inputMessage.value = "";
         inputWhatsapp.value = "";
+        inputName.value = "";
+        inputEmail.value = "";
+
+        showFormState();
+
+        modalTitle.textContent = title || defaults.title;
+        modalDescription.textContent = description || defaults.description;
+        submitBtn.textContent = submitLabel || defaults.submitLabel;
+        hint.textContent = defaults.hint;
 
         if (mode === "ticket") {
           const ticketId = buildTicketId(normalizedItem);
           inputTicketId.value = ticketId;
-
-          modalTitle.textContent = "Entre em contato";
-          submitBtn.textContent = "Enviar mensagem";
-          hint.textContent = "Preencha nome e e-mail para falar sobre livros, palestras, mentorias ou aquisição.";
           whatsappWrap.classList.remove("is-hidden");
           messageWrap.classList.remove("is-hidden");
         } else {
           whatsappWrap.classList.add("is-hidden");
           messageWrap.classList.add("is-hidden");
-          setModalDownloadText(normalizedItem);
         }
 
         modal.setAttribute("aria-hidden", "false");
@@ -2481,11 +2615,14 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
         messageWrap.classList.add("is-hidden");
 
         submitBtn.disabled = false;
-        submitBtn.textContent = "Baixar agora";
+        submitBtn.textContent = "Continuar";
         submitBtn.style.opacity = "1";
 
         modalTitle.textContent = "Download do catálogo";
+        modalDescription.textContent = "Preencha seus dados para continuar.";
         hint.textContent = "Preencha seu nome e e-mail para continuar.";
+
+        showFormState();
 
         if (lastTrigger && typeof lastTrigger.focus === "function") {
           lastTrigger.focus();
@@ -2500,6 +2637,39 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
           throw new Error(data.error || data.message || "Não foi possível processar a solicitação.");
         }
         return data;
+      }
+
+      function getDownloadSuccessText(item) {
+        const upper = canonicalItem(item);
+
+        if (upper.indexOf("CATALOGO") >= 0) {
+          return {
+            title: "Catálogo liberado",
+            text: "Seu catálogo foi preparado com sucesso. O material será aberto em seguida."
+          };
+        }
+
+        return {
+          title: "Material liberado",
+          text: "Seu material foi preparado com sucesso. O conteúdo será aberto em seguida."
+        };
+      }
+
+      function getNewsletterSuccessText() {
+        return {
+          title: "Cadastro realizado",
+          text: "Seu contato foi registrado. Você passará a receber novidades, leituras e materiais do autor."
+        };
+      }
+
+      function getTicketSuccessText(item) {
+        const cleanItem = String(item || "").trim();
+        return {
+          title: "Solicitação enviada",
+          text: cleanItem
+            ? 'Recebemos seu contato sobre "' + cleanItem + '". Em breve retornaremos com as orientações.'
+            : "Recebemos sua mensagem com sucesso. Em breve nossa equipe entrará em contato."
+        };
       }
 
       inputWhatsapp.addEventListener("blur", function () {
@@ -2523,6 +2693,9 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
 
           const item = canonicalItem(downloadBtn.getAttribute("data-item") || "");
           const fileId = String(downloadBtn.getAttribute("data-file-id") || "").trim();
+          const title = downloadBtn.getAttribute("data-modal-title") || "";
+          const description = downloadBtn.getAttribute("data-modal-description") || "";
+          const submitLabel = downloadBtn.getAttribute("data-submit-label") || "";
 
           if (!item || !fileId) {
             hint.textContent = "Conteúdo indisponível no momento.";
@@ -2539,7 +2712,38 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
             mode: "download",
             item: item,
             fileId: fileId,
-            trigger: downloadBtn
+            trigger: downloadBtn,
+            title: title,
+            description: description,
+            submitLabel: submitLabel
+          });
+        });
+      });
+
+      newsletterButtons.forEach(function (newsletterBtn) {
+        newsletterBtn.addEventListener("click", function (event) {
+          event.preventDefault();
+
+          const item = canonicalItem(newsletterBtn.getAttribute("data-item") || "");
+          const title = newsletterBtn.getAttribute("data-modal-title") || "";
+          const description = newsletterBtn.getAttribute("data-modal-description") || "";
+          const submitLabel = newsletterBtn.getAttribute("data-submit-label") || "";
+
+          if (!item) return;
+
+          track("select_content", {
+            content_type: "newsletter_cta",
+            item: item
+          });
+
+          openModal({
+            mode: "newsletter",
+            item: item,
+            fileId: "",
+            trigger: newsletterBtn,
+            title: title,
+            description: description,
+            submitLabel: submitLabel
           });
         });
       });
@@ -2549,6 +2753,10 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
           event.preventDefault();
 
           const item = canonicalItem(ticketBtn.getAttribute("data-item") || "");
+          const title = ticketBtn.getAttribute("data-modal-title") || "";
+          const description = ticketBtn.getAttribute("data-modal-description") || "";
+          const submitLabel = ticketBtn.getAttribute("data-submit-label") || "";
+
           if (!item) return;
 
           track("select_content", {
@@ -2560,12 +2768,19 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
             mode: "ticket",
             item: item,
             fileId: "",
-            trigger: ticketBtn
+            trigger: ticketBtn,
+            title: title,
+            description: description,
+            submitLabel: submitLabel
           });
         });
       });
 
       closeBtn.addEventListener("click", function () {
+        closeModal();
+      });
+
+      successClose.addEventListener("click", function () {
         closeModal();
       });
 
@@ -2665,10 +2880,8 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
             submitBtn.textContent = "Enviar mensagem";
             hint.textContent = "Mensagem recebida com sucesso.";
 
-            window.setTimeout(function () {
-              closeModal();
-              alert("Mensagem recebida com sucesso.");
-            }, 250);
+            const success = getTicketSuccessText(item);
+            showSuccessState(success.title, success.text);
           } catch (error) {
             submitBtn.disabled = false;
             submitBtn.style.opacity = "1";
@@ -2684,13 +2897,64 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
           return;
         }
 
+        if (mode === "newsletter") {
+          submitBtn.textContent = "Registrando...";
+          hint.textContent = "Estamos registrando seu contato.";
+
+          const payload = {
+            action: "capture_newsletter",
+            name: name,
+            email: email,
+            item: item,
+            page_url: location.href,
+            referrer: document.referrer || "",
+            user_agent: navigator.userAgent
+          };
+
+          try {
+            await submitLead(payload);
+
+            track("generate_lead", {
+              currency: "BRL",
+              value: 1,
+              item: item,
+              lead_type: "newsletter"
+            });
+
+            track("sign_up", {
+              method: "email",
+              item: item
+            });
+
+            submitBtn.disabled = false;
+            submitBtn.style.opacity = "1";
+            submitBtn.textContent = "Quero receber";
+            hint.textContent = "Cadastro realizado com sucesso.";
+
+            const success = getNewsletterSuccessText();
+            showSuccessState(success.title, success.text);
+          } catch (error) {
+            submitBtn.disabled = false;
+            submitBtn.style.opacity = "1";
+            submitBtn.textContent = "Quero receber";
+            hint.textContent = String(error && error.message ? error.message : "Não foi possível concluir seu cadastro.");
+
+            track("exception", {
+              description: String(error && error.message ? error.message : "newsletter_error"),
+              fatal: false
+            });
+          }
+
+          return;
+        }
+
         submitBtn.textContent = "Enviando...";
         hint.textContent = "Estamos preparando o envio.";
 
         if (!fileId) {
           submitBtn.disabled = false;
           submitBtn.style.opacity = "1";
-          setModalDownloadText(item);
+          submitBtn.textContent = "Continuar";
           hint.textContent = "Conteúdo indisponível no momento.";
           return;
         }
@@ -2731,17 +2995,21 @@ data-file-id="ARQUIVO_ID_NOVIDADES_AUTOR">
             link_url: redirectUrl
           });
 
-          const downloadWindow = window.open(redirectUrl, "_blank", "noopener");
+          const success = getDownloadSuccessText(item);
+          showSuccessState(success.title, success.text);
 
-          closeModal();
+          window.setTimeout(function () {
+            const downloadWindow = window.open(redirectUrl, "_blank", "noopener");
+            closeModal();
 
-          if (!downloadWindow) {
-            window.location.href = redirectUrl;
-          }
+            if (!downloadWindow) {
+              window.location.href = redirectUrl;
+            }
+          }, 220);
         } catch (error) {
           submitBtn.disabled = false;
           submitBtn.style.opacity = "1";
-          setModalDownloadText(item);
+          submitBtn.textContent = "Continuar";
           hint.textContent = String(error && error.message ? error.message : "Não foi possível concluir sua solicitação.");
 
           track("exception", {
