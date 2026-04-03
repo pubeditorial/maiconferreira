@@ -1183,12 +1183,42 @@
     .lead-dialog{
       width:min(560px,100%);
       max-height:min(88vh,940px);
-      overflow:auto;
+      overflow-x:hidden;
+      overflow-y:auto;
       border-radius:28px;
       background:var(--panel);
       border:1px solid var(--line);
       box-shadow:0 28px 90px rgba(0,0,0,.30);
       color:var(--fg);
+      scrollbar-gutter:stable both-edges;
+      scrollbar-width:thin;
+      scrollbar-color:rgba(24,21,18,.18) transparent;
+    }
+
+    .lead-dialog::-webkit-scrollbar{
+      width:10px;
+      height:10px;
+    }
+
+    .lead-dialog::-webkit-scrollbar-track{
+      background:transparent;
+    }
+
+    .lead-dialog::-webkit-scrollbar-thumb{
+      background:rgba(24,21,18,.16);
+      border:3px solid transparent;
+      border-radius:999px;
+      background-clip:padding-box;
+    }
+
+    .lead-dialog::-webkit-scrollbar-thumb:hover{
+      background:rgba(24,21,18,.24);
+      border:3px solid transparent;
+      background-clip:padding-box;
+    }
+
+    .lead-dialog::-webkit-scrollbar-corner{
+      background:transparent;
     }
 
     .lead-header{
@@ -1350,6 +1380,11 @@
       .lead-body{ padding:16px; }
       .lead-actions{ display:grid; }
       .lead-btn{ width:100%; }
+
+      .lead-dialog::-webkit-scrollbar{
+        width:8px;
+        height:8px;
+      }
     }
   </style>
 </head>
