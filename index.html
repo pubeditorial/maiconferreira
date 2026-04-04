@@ -163,7 +163,7 @@
     });
   </script>
 
-  <style>
+<style>
   :root{
     --bg:#0f1012;
     --bg-soft:#17191d;
@@ -192,12 +192,14 @@
     --s7:56px;
     --s8:80px;
 
-    --section-space:clamp(52px,7vw,80px);
-    --section-space-mobile:clamp(40px,8vw,56px);
-    --stack-xl:clamp(22px,3vw,36px);
-    --stack-lg:clamp(18px,2.4vw,28px);
-    --stack-md:clamp(14px,2vw,18px);
-    --stack-sm:10px;
+    /* reduzido para evitar “buracos” entre seções */
+    --section-space:clamp(28px,4vw,44px);
+    --section-space-mobile:clamp(22px,5vw,32px);
+
+    --stack-xl:clamp(18px,2.4vw,28px);
+    --stack-lg:clamp(16px,2vw,24px);
+    --stack-md:clamp(12px,1.6vw,16px);
+    --stack-sm:8px;
 
     --radius-control:16px;
     --radius-card:24px;
@@ -898,7 +900,7 @@
 
   #author-site .feature-grid{
     display:grid;
-    gap:var(--s5);
+    gap:var(--stack-lg);
     align-items:start;
     grid-template-columns:minmax(240px,320px) minmax(0,1fr);
   }
@@ -1011,10 +1013,6 @@
     display:grid;
     gap:var(--stack-md);
     align-content:start;
-  }
-
-  #author-site .materials-grid > .card p{
-    flex:initial;
   }
 
   @media (max-width:1080px){
@@ -1171,8 +1169,9 @@
     background:var(--line-strong);
   }
 
+  /* reduz a sensação de “mais uma seção grande” */
   #author-site .pub-signature{
-    padding:20px 0 28px;
+    padding:12px 0 20px;
   }
 
   #author-site .pub-signature-text{
@@ -1194,9 +1193,26 @@
     margin-top:0;
   }
 
-  /* neutraliza os margin-top inline atuais, caso ainda existam */
   #author-site [style*="margin-top:16px"]{
     margin-top:0 !important;
+  }
+
+  /* ajuste fino específico de seções */
+  #author-site #destaque.stripe,
+  #author-site #leituras.stripe,
+  #author-site #faq.stripe{
+    padding-top:24px;
+    padding-bottom:24px;
+  }
+
+  #author-site section[aria-label="Acompanhar novidades"].stripe{
+    padding-top:24px;
+    padding-bottom:24px;
+  }
+
+  #author-site section[aria-label="Rodapé"].stripe{
+    padding-top:16px !important;
+    padding-bottom:0 !important;
   }
 
   #lead-modal{
@@ -1420,6 +1436,14 @@
     .lead-dialog::-webkit-scrollbar{
       width:8px;
       height:8px;
+    }
+
+    #author-site #destaque.stripe,
+    #author-site #leituras.stripe,
+    #author-site #faq.stripe,
+    #author-site section[aria-label="Acompanhar novidades"].stripe{
+      padding-top:20px;
+      padding-bottom:20px;
     }
   }
 </style>
